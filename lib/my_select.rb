@@ -1,5 +1,5 @@
-def number.even?
-  if number % 2 == 0
+def num.even?
+  if num % 2 == 0
     return true
   else
     return false
