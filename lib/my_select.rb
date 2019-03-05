@@ -5,8 +5,8 @@ def my_select(collection)
     puts "This block should not run!"
   else
     while i < collection.length
-      if collection[i].even? == true
-        yield newArray.push(collection[i].even?)
+      if yield(collection[i]) == true
+        newArray.push(collection[i])
       end
       i += 1
     end
