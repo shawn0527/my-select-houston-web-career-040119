@@ -1,3 +1,11 @@
+def *.even?
+  if * % 2 == 0
+    return true
+  else
+    return false
+  end
+end
+
 def my_select(collection)
   i = 0
   newArray=[]
