@@ -1,7 +1,7 @@
 def my_select(collection)
   i = 0
   newArray=[]
-  def (num).even?
+  def num.even?
     if num % 2 == 0
       return true
     else
