@@ -6,7 +6,7 @@ def my_select(collection)
   else
     while i < collection.length
       if collection[i] % 2 == 0
-        yield newArray.push(collection[i])
+        yield newArray.push(collection[i].even?)
       end
       i += 1
     end
