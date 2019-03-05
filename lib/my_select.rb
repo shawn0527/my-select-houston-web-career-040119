@@ -9,6 +9,7 @@ def my_select(collection)
       if collection[i].even?
         newArray.push(collection[i])
       end
+      newArray
       i += 1
     end
   end
