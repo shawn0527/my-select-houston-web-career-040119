@@ -1,13 +1,6 @@
 def my_select(collection)
   i = 0
   newArray=[]
-  def num.even?
-    if num % 2 == 0
-      return true
-    else
-      return false
-    end
-  end
   if collection.length == 0
     puts "This block should not run!"
   else
