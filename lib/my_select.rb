@@ -5,7 +5,7 @@ def my_select(collection)
     puts "This block should not run!"
   else
     while i < collection.length
-      yield newArray << collection[i].even?
+      yield newArray << collection[i] % 2 == 0
       i += 1
     end
   end
